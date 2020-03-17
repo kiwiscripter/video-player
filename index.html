@@ -1,0 +1,26 @@
+<!DOCTYPE html> 
+<html> 
+    <head>
+        <link rel="stylesheet" href="videoplayer.css">
+        <link href="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <style id="styles"></style>
+    </head>
+<body> 
+
+<div id="player">
+  <video id="video1" onclick="playPause()">
+    <source src="kiwi.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+  <div id="time">
+    <span id="timestamp"></span>/<span id="endtime"></span>
+    <button id='s-s' onclick="playPause()"><i class="material-icons">play_arrow</i></button>
+  </div>
+</div> 
+<br>
+<a href="https://www.youtube.com/watch?v=sdUUx5FdySs">click here to go to the original video</a>
+<script src="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.js"></script>
+<script src="player.js"></script>
+</body> 
+</html>
